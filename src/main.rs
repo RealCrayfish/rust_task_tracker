@@ -9,7 +9,7 @@ use uuid::{Timestamp, Uuid};
 const TASK_FILE_PATH: &str = "tasks.json";
 
 fn main() {
-    println!("eri's task tracker writen in rust!");
+    println!("Task Tracker writen in rust!");
 
     let mut quit = false;
     while !quit {
